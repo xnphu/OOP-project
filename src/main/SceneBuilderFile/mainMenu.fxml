@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<SplitPane dividerPositions="0.23618090452261306" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="713.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+<SplitPane dividerPositions="0.23618090452261306" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="603.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
   <items>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="598.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="148.0" prefWidth="598.0">
          <children>
             <Label layoutX="172.0" layoutY="59.0" prefHeight="47.0" prefWidth="255.0" text="Listen And Write">
                <font>
@@ -17,22 +17,21 @@
                </font>
             </Label>
          </children></AnchorPane>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="469.0" prefWidth="598.0">
          <children>
-            <Label layoutX="224.0" layoutY="85.0" prefHeight="26.0" prefWidth="150.0" text="Select level below:">
+            <Label layoutX="221.0" layoutY="26.0" prefHeight="27.0" prefWidth="160.0" text="Select level below:" wrapText="true">
                <font>
-                  <Font name="System Bold" size="17.0" />
+                  <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <ComboBox fx:id="comboBox" layoutX="225.0" layoutY="138.0" prefWidth="150.0" promptText="Select level" />
-            <Button fx:id="startBtn" layoutX="234.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="34.0" prefWidth="133.0" text="Start" />
-            <Button fx:id="exitBtn" layoutX="234.0" layoutY="449.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="34.0" prefWidth="133.0" text="Exit" />
-            <Label fx:id="caution" contentDisplay="CENTER" layoutX="217.0" layoutY="223.0" prefHeight="47.0" prefWidth="167.0" textFill="RED">
+            <ComboBox fx:id="comboBox" layoutX="227.0" layoutY="83.0" prefHeight="34.0" prefWidth="150.0" promptText="Select level" />
+            <Button fx:id="startBtn" layoutX="235.0" layoutY="197.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="47.0" prefWidth="133.0" text="Start" />
+            <Label fx:id="caution" contentDisplay="CENTER" layoutX="218.0" layoutY="163.0" prefHeight="47.0" prefWidth="167.0" textFill="RED">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Button fx:id="aboutUsBtn" layoutX="234.0" layoutY="378.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="34.0" prefWidth="133.0" text="About" />
+            <Button fx:id="aboutUsBtn" layoutX="234.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="47.0" prefWidth="133.0" text="About" />
          </children></AnchorPane>
   </items>
 </SplitPane>

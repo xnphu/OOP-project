@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/audio/level3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/audio/level4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/text/level3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/audio/level1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/text/level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SceneBuilderFile/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SceneBuilderFile/mainMenu.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +69,11 @@
     <session id="-693462086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="4" />
@@ -75,38 +81,41 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="fxml" value="154" />
-          <entry key="java" value="3363" />
+          <entry key="fxml" value="161" />
+          <entry key="java" value="4089" />
+          <entry key="txt" value="519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3363" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="154" />
+          <entry key="JAVA" value="4089" />
+          <entry key="PLAIN_TEXT" value="526" />
+          <entry key="XML" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="fxml" value="30" />
+          <entry key="fxml" value="42" />
           <entry key="iml" value="1" />
-          <entry key="java" value="29" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="36" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="29" />
-          <entry key="XML" value="33" />
+          <entry key="JAVA" value="36" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="XML" value="47" />
         </counts>
       </usages-collector>
     </session>
@@ -117,39 +126,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Audio.java">
+        <entry file="file://$PROJECT_DIR$/src/data/text/level10.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-column="195" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+            <state relative-caret-position="387">
+              <caret line="77" column="53" lean-forward="true" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,18 +181,27 @@
         <option value="$PROJECT_DIR$/src/main/DialogController.java" />
         <option value="$PROJECT_DIR$/src/main/aboutUs.fxml" />
         <option value="$PROJECT_DIR$/src/main/mainMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/main/Audio.java" />
-        <option value="$PROJECT_DIR$/src/main/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml" />
         <option value="$PROJECT_DIR$/src/main/AboutUsController.java" />
         <option value="$PROJECT_DIR$/src/main/SceneBuilderFile/aboutUs.fxml" />
+        <option value="$PROJECT_DIR$/src/main/SceneBuilderFile/intro.fxml" />
+        <option value="$PROJECT_DIR$/src/main/SceneBuilderFile/mainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/Audio.java" />
+        <option value="$PROJECT_DIR$/src/main/LCS.java" />
+        <option value="$PROJECT_DIR$/src/data/text/level4.txt" />
+        <option value="$PROJECT_DIR$/src/data/text/level5.txt" />
+        <option value="$PROJECT_DIR$/src/data/text/level6.txt" />
+        <option value="$PROJECT_DIR$/src/data/text/level7.txt" />
+        <option value="$PROJECT_DIR$/src/data/text/level8.txt" />
+        <option value="$PROJECT_DIR$/src/data/text/level9.txt" />
+        <option value="$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml" />
+        <option value="$PROJECT_DIR$/src/main/MainController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="259" />
+    <option name="x" value="376" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -216,18 +214,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="OOP-javafx" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP-javafx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP-javafx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP-javafx" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP-javafx" type="b2602c69:ProjectViewProjectNode" />
@@ -248,19 +240,13 @@
             </path>
             <path>
               <item name="OOP-javafx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP-javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="SceneBuilderFile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP-javafx" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -274,7 +260,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544957166597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545023812445" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -283,12 +269,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\data\audio" />
+      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\data\text" />
       <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\main\SceneBuilderFile" />
       <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\data\text" />
+      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src\data\audio" />
+      <recent name="C:\Users\Admin\IdeaProjects\OOP-javafx\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,9 +392,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1736494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17530319" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -419,7 +408,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
@@ -585,14 +574,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ReadFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/mainMenu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AudioBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -610,22 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="105" lean-forward="true" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/aboutUs.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="243" selection-start-line="6" selection-start-column="243" selection-end-line="6" selection-end-column="243" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AboutUsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -636,38 +601,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/aboutUs.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/intro.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/com/sun/glass/ui/win/WinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="94" selection-start-column="94" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="97" selection-start-column="97" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/mainMenu.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SceneBuilderFile/detail.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
+            <element signature="e#3160#3161#0" expanded="true" />
+            <element signature="e#3215#3216#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Audio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/text/level10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="195" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="86" />
+        <state relative-caret-position="387">
+          <caret line="77" column="53" lean-forward="true" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

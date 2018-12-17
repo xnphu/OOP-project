@@ -33,10 +33,8 @@ public class Controller implements Initializable {
     @FXML
     private Button aboutUsBtn;
 
-    @FXML
-    private Button exitBtn;
-
     public Audio audio = new Audio();
+    int level;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -51,7 +49,7 @@ public class Controller implements Initializable {
             if (event.getSource() == startBtn) {
                 if (comboBox.getValue() != null) {
                     String choice = comboBox.getValue();
-                    int level = Integer.parseInt(choice.substring(choice.indexOf(" ") + 1, choice.length()));
+                    level = Integer.parseInt(choice.substring(choice.indexOf(" ") + 1, choice.length()));
                     System.out.println(level);
                     audio.setLevel(level);
 
@@ -80,11 +78,15 @@ public class Controller implements Initializable {
                 primaryStage.setScene(new Scene(root));
                 primaryStage.show();
             }
-            if (event.getSource() == exitBtn) {
-                System.exit(0);
-            }
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public void getLevelFromController(int level) {
+        this.level = level;
+    }
+
+    public void getAudioFromController(Audio audio) {
+        this.audio = audio;
     }
 }

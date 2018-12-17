@@ -2,51 +2,59 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainController">
   <children>
     <TextArea fx:id="typeAnswer" layoutX="17.0" layoutY="138.0" onInputMethodTextChanged="#buttonAction" prefHeight="123.0" prefWidth="811.0" />
-    <Button fx:id="backBtn" layoutX="842.0" layoutY="330.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="107.0" text="Back to Home" />
-    <Button fx:id="playBtn" layoutX="616.0" layoutY="19.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="36.0" prefWidth="56.0" text="Play" />
-    <Button fx:id="stopBtn" layoutX="616.0" layoutY="57.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="36.0" prefWidth="56.0" text="Stop" />
+    <Button fx:id="backBtn" layoutX="604.0" layoutY="488.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="107.0" text="Back to Home" />
+    <Button fx:id="playBtn" layoutX="237.0" layoutY="488.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="107.0" text="Play" />
+    <Button fx:id="stopBtn" layoutX="423.0" layoutY="488.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="107.0" text="Stop" />
     <Button fx:id="checkBtn" layoutX="851.0" layoutY="200.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="59.0" prefWidth="72.0" text="Check">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <ProgressBar blendMode="HARD_LIGHT" layoutX="119.0" layoutY="28.0" prefHeight="18.0" prefWidth="419.0" progress="0.45" />
       <Label layoutX="38.0" layoutY="106.0" prefHeight="20.0" prefWidth="127.0" text="Type your answer:">
          <font>
             <Font name="System Bold Italic" size="14.0" />
          </font>
       </Label>
-      <Pane layoutX="17.0" layoutY="284.0">
+      <Pane layoutX="14.0" layoutY="304.0">
          <children>
             <Label layoutX="21.0" prefHeight="20.0" prefWidth="107.0" text="Your answer:">
                <font>
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="21.0" layoutY="145.0" prefHeight="20.0" prefWidth="107.0" text="Correct answer:">
+            <Label layoutX="21.0" layoutY="145.0" prefHeight="20.0" prefWidth="81.0" text="Your score:">
                <font>
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="yourAnswer" alignment="TOP_LEFT" layoutY="38.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="88.0" prefWidth="811.0" textFill="#7eff05" wrapText="true">
+            <Label fx:id="yourAnswer" alignment="TOP_LEFT" layoutX="7.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="88.0" prefWidth="811.0" textFill="#7eff05" wrapText="true">
                <font>
-                  <Font size="14.0" />
+                  <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="correctAnswer" alignment="TOP_LEFT" layoutY="170.0" prefHeight="88.0" prefWidth="811.0" textAlignment="JUSTIFY" textFill="#ff0404" wrapText="true">
+            <Label fx:id="yourScore" alignment="TOP_LEFT" layoutX="102.0" layoutY="145.0" prefHeight="20.0" prefWidth="466.0" textAlignment="JUSTIFY" textFill="#ff0404" wrapText="true">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
          </children>
       </Pane>
+      <Label fx:id="caution" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="273.0" prefHeight="20.0" prefWidth="407.0" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="64.0" layoutY="47.0" prefHeight="59.0" prefWidth="825.0" text="Listen carefully the part of a conversation(or part of a song) and type your answer:">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
   </children>
 </AnchorPane>

@@ -17,9 +17,10 @@ public class Audio {
     private Media media;
 
     public void setLevel(int level) {
-        String path = new File("src/data/audio/" + audioStringArr[level - 1] + ".mp3").getAbsolutePath();
+        String path = new File("src/data/audio/" + audioStringArr[level - 1] + ".wav").getAbsolutePath();
         media = new Media(new File(path).toURI().toString());
         audio = new MediaPlayer(media);
+        audio.setCycleCount(MediaPlayer.INDEFINITE);
         setAudio(audio);
     }
 
